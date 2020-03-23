@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj": {}
+    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj": {
+    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
-        "projectName": "fishRepo_EF2",
-        "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
+        "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj",
+        "projectName": "fishRepo_EF",
+        "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj",
         "packagesPath": "C:\\Users\\moyek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\obj\\",
+        "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moyek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

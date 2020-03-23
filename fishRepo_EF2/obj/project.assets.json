@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF2\\fishRepo_EF2.csproj",
+      "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
       "projectName": "fishRepo_EF2",
-      "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF2\\fishRepo_EF2.csproj",
+      "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
       "packagesPath": "C:\\Users\\moyek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF2\\obj\\",
+      "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\moyek\\AppData\\Roaming\\NuGet\\NuGet.Config",
