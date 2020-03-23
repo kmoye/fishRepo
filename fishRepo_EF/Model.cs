@@ -29,15 +29,20 @@ namespace FishDumpRepo
         public int RegionID { get; set; }
         public string FishID { get; set; }
         public string Regions { get; set; }
+
+        public List<SubRegion> SubRegions { get; } = new List<SubRegion>();
+
     }
 
     public class Locations
     {
+        public int LocationsID { get; set; }
         public string StudyAreas { get; set; }
         public string Longtitude { get; set; }
         public int FishLocaID { get; set; }
         public string Latitude { get; set; }
         public string FishID { get; set; }
+        public List<Region> Regions { get; } = new List<Region>();
 
     }
 
@@ -48,6 +53,8 @@ namespace FishDumpRepo
         public string SpecificName { get; set; }
         public int CommonName { get; set; }
         public string FishID { get; set; }
+
+        public List<Characteristic> Characteristics  { get; } = new List<Characteristic>();
     }
 
     public class Survey
@@ -58,6 +65,8 @@ namespace FishDumpRepo
         public int Management { get; set; }
         public string BatchCode { get; set; }
         public string FishID { get; set; }
+
+        public List<Locations> Locations { get; } = new List<Locations>();
     }
     public class Characteristic
     {
@@ -68,6 +77,9 @@ namespace FishDumpRepo
         public string FishID { get; set; }
         public int StructureType { get; set; }
         public string FishCount { get; set; }
+
+        public List<Locations> Locations { get; } = new List<Locations>();
+
 
     }
 }

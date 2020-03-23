@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj": {}
+    "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF\\fishRepo_EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj": {
+    "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF\\fishRepo_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj",
+        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF\\fishRepo_EF.csproj",
         "projectName": "fishRepo_EF",
-        "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\fishRepo_EF.csproj",
-        "packagesPath": "C:\\Users\\moyek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo_EF\\obj\\",
+        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF\\fishRepo_EF.csproj",
+        "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\moyek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\turck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +47,10 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.2, )"
@@ -70,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
