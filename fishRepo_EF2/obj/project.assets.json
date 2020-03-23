@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
       "projectName": "fishRepo_EF2",
       "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
       "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
       "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Group Project\\fishRepo\\fishRepo_EF2\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
+      "projectName": "fishRepo_EF2",
+      "projectPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\fishRepo_EF2.csproj",
+      "packagesPath": "C:\\Users\\moyek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moyek\\Documents\\MSSA\\Gitstuff\\fishRepo\\fishRepo\\fishRepo_EF2\\obj\\",
+>>>>>>> 6ec3b95390005162c4e5d183c23c3449ee791a71
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
